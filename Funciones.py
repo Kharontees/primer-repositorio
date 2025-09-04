@@ -3,7 +3,14 @@
 contactos = []
 
 def agregar_contacto(nombre):
+    for c in contactos:
+        if c['nombre'].lower() == nombre.lower():
+            print(f"Error: El contacto '\033[31m{nombre}\033[0m' ya existe.")
+            return  # 
+    
+    
     contactos.append({"nombre": nombre})
+    print(f"Contacto '\033[32m{nombre}\033[0m' agregado exitosamente.")
 
 def listar_contactos():
     print("\nLista de contacto")
@@ -19,7 +26,7 @@ def buscar_contacto(nombre):
             print(f"Contacto encontrado: {c['nombre']}")
             return
     print("Contacto no encontrado")
-    
+
 def menu():
     while True:
         print("\n---Menú---")
