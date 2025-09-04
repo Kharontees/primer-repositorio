@@ -12,3 +12,10 @@ Proyecto simple de consola para registrar, buscar y listar contactos usando Pyth
     se creó la función de agregar contactos
     se creó la función de listar contactos
     se creó la función de buscar contactos
+
+# Opciones
+    1.Agregar contactos
+    2.Listar Contacto
+    3.Buscar Contacto
+    4.SALIR
+    5.Seleccionar Opción 
