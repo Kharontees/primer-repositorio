@@ -5,4 +5,4 @@
         git config --global user.email "kharontees@gmail.com"
 
 #Agenda de contactos
-Proyecto simple de consola para registrar, buscar y star contactos usando python
+Proyecto simple de consola para registrar, buscar y listar contactos usando python
