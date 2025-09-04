@@ -9,5 +9,5 @@
 Proyecto simple de consola para registrar, buscar y listar contactos usando Python
 
 # Agenda.py
-    se creo función de agregar contactos
+    se creo la función de agregar contactos
     se creó la función de listar contactos
