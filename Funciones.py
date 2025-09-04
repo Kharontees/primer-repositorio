@@ -6,7 +6,7 @@ def agregar_contacto(nombre):
     for c in contactos:
         if c['nombre'].lower() == nombre.lower():
             print(f"Error: El contacto '\033[31m{nombre}\033[0m' ya existe.")
-            return  # 
+            return  
     
     
     contactos.append({"nombre": nombre})
