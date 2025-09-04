@@ -1,5 +1,5 @@
 # Al usar computadoras del taller
-    1. Instalar GIT
+    1.Instalar GIT
     2.Instalar extension de Python
     3.Comandos
         git config --global user.name "Diego"
